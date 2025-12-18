@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Shield, CheckCircle, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
-
+import heroImage from "@/assets/hero-home-protection.jpg";
 const Hero = () => {
   const scrollToContact = () => {
     const element = document.querySelector("#contact");
@@ -11,7 +11,17 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center bg-hero-gradient overflow-hidden pt-24">
+    <section className="relative min-h-screen flex items-center overflow-hidden pt-24">
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <img 
+          src={heroImage} 
+          alt="Home protection - Stop foreclosure" 
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-navy-dark/85" />
+      </div>
+
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-gold rounded-full blur-3xl" />
