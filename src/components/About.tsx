@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { Award, Users, BookOpen, Shield } from "lucide-react";
+import attorneyImage from "@/assets/attorney-client.jpg";
+import familyImage from "@/assets/family-saved-home.jpg";
 
 const features = [
   {
@@ -80,6 +82,24 @@ const About = () => {
             transition={{ duration: 0.6 }}
             className="relative"
           >
+            {/* Image Grid */}
+            <div className="grid grid-cols-2 gap-4 mb-6">
+              <div className="rounded-2xl overflow-hidden shadow-medium">
+                <img 
+                  src={attorneyImage} 
+                  alt="Attorney meeting with client" 
+                  className="w-full h-48 object-cover"
+                />
+              </div>
+              <div className="rounded-2xl overflow-hidden shadow-medium mt-6">
+                <img 
+                  src={familyImage} 
+                  alt="Happy family saved their home" 
+                  className="w-full h-48 object-cover"
+                />
+              </div>
+            </div>
+
             <div className="bg-hero-gradient rounded-2xl p-8 md:p-10">
               <h3 className="font-display text-2xl text-cream mb-6">Why Choose Us?</h3>
               
