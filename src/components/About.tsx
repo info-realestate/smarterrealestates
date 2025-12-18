@@ -109,7 +109,7 @@ const About = () => {
                   "Free initial consultation with an attorney",
                   "24/7 emergency support for urgent cases",
                   "Transparent communication throughout your case",
-                  "Bilingual staff available (English & Spanish)",
+                  "Specialized exclusively in stopping foreclosure nationwide",
                   "Licensed to practice in all 50 states",
                 ].map((item, index) => (
                   <li key={index} className="flex items-center gap-3 text-cream/90">
