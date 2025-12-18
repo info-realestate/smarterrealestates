@@ -14,32 +14,68 @@ const services = [
   {
     icon: Home,
     title: "Save House From Foreclosure",
-    description: "Protect your home without filing for bankruptcy. Our legal strategies have helped thousands keep their properties.",
+    description: "Protect your home without filing for bankruptcy. Our experienced attorneys use proven legal strategies that have helped thousands of families keep their properties and avoid the devastating consequences of foreclosure.",
+    details: [
+      "Negotiate directly with lenders on your behalf",
+      "Identify procedural errors in foreclosure filings",
+      "Explore all available legal remedies",
+      "Provide ongoing case management and support"
+    ]
   },
   {
     icon: Clock,
     title: "Stop Auction Without Bankruptcy",
-    description: "Emergency legal action to halt foreclosure auctions immediately. Time is critical - we act fast.",
+    description: "When your home is scheduled for auction, every hour counts. Our emergency legal team acts immediately to file motions and take swift action to halt the sale, giving you time to explore all options without the long-term credit impact of bankruptcy.",
+    details: [
+      "24/7 emergency response for urgent cases",
+      "Same-day court filings when necessary",
+      "Direct communication with auction trustees",
+      "Strategic postponement negotiations"
+    ]
   },
   {
     icon: Gavel,
     title: "Wrongful Foreclosure Defense",
-    description: "If your lender has violated laws or procedures, we'll fight to protect your rights and your home.",
+    description: "Many foreclosures are conducted improperly or illegally. If your lender has violated federal or state laws, failed to follow proper procedures, or engaged in predatory lending practices, we will aggressively fight to protect your rights and potentially reverse the foreclosure.",
+    details: [
+      "Review all loan documents for violations",
+      "Identify RESPA, TILA, and FDCPA violations",
+      "Challenge improper notice requirements",
+      "Pursue damages for lender misconduct"
+    ]
   },
   {
     icon: FileText,
     title: "Loan Modification Assistance",
-    description: "With a 99% success rate, we negotiate with lenders to modify your mortgage terms and make payments affordable.",
+    description: "With a 99% success rate, our attorneys are experts at negotiating with lenders to modify your mortgage terms. We work to reduce your interest rate, extend your loan term, or reduce principal balance to create a payment plan you can actually afford.",
+    details: [
+      "Complete application preparation and submission",
+      "Principal reduction negotiations",
+      "Interest rate reduction requests",
+      "Extended repayment term arrangements"
+    ]
   },
   {
     icon: Scale,
     title: "Sue Lender for Declined Assistance",
-    description: "When lenders wrongfully deny modifications, we take legal action to hold them accountable.",
+    description: "When lenders wrongfully deny loan modifications or loss mitigation options, they may be violating federal and state consumer protection laws. We hold banks accountable by filing lawsuits to recover damages and force them to work with homeowners in good faith.",
+    details: [
+      "Federal and state consumer protection claims",
+      "Breach of contract litigation",
+      "Dual-tracking violation lawsuits",
+      "Recovery of damages and legal fees"
+    ]
   },
   {
     icon: Shield,
     title: "TRO (Temporary Restraining Order)",
-    description: "Obtain court orders to immediately stop foreclosure proceedings while we build your case.",
+    description: "A Temporary Restraining Order is a powerful legal tool that immediately stops foreclosure proceedings. Our attorneys can obtain TROs from the court within 24-48 hours in emergency situations, providing critical time to develop a comprehensive defense strategy.",
+    details: [
+      "Emergency court filings within 24-48 hours",
+      "Immediate halt to all foreclosure activities",
+      "Protection while building your full case",
+      "Extension motions for continued protection"
+    ]
   },
 ];
 
@@ -87,9 +123,17 @@ const Services = () => {
                 <h3 className="font-display text-xl font-semibold text-foreground mb-3">
                   {service.title}
                 </h3>
-                <p className="text-muted-foreground leading-relaxed">
+                <p className="text-muted-foreground leading-relaxed mb-4">
                   {service.description}
                 </p>
+                <ul className="space-y-2">
+                  {service.details.map((detail, i) => (
+                    <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
+                      <div className="w-1.5 h-1.5 rounded-full bg-gold mt-2 flex-shrink-0" />
+                      <span>{detail}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </motion.div>
           ))}
