@@ -1,3 +1,9 @@
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void;
+  }
+}
+
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
@@ -49,6 +55,13 @@ const ContactForm = () => {
       }
       
       setIsSubmitted(true);
+
+      // Fire Google Ads conversion event
+      window.gtag?.('event', 'conversion', {
+        send_to: 'AW-17816164600/lZZUCLnb1f0bEPixtK9C',
+        value: 1.0,
+        currency: 'USD',
+      });
       toast({
         title: "Consultation Request Received!",
         description: "Our team will contact you within 24 hours.",
