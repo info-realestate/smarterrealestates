@@ -13,7 +13,7 @@ const quickReplies = [
   "How can I stop foreclosure?",
   "What is a TRO?",
   "Can I modify my loan?",
-  "What's your success rate?",
+  "What's your track record?",
 ];
 
 const AIChat = () => {
