@@ -43,7 +43,7 @@ const Header = () => {
               <span className="text-navy-dark font-display font-bold text-xl">F</span>
             </div>
             <div className="hidden sm:block">
-              <span className="text-cream font-display font-semibold text-lg">The</span>
+              <span className="text-cream font-display font-semibold text-lg">The&nbsp;</span>
               <span className="text-gold font-display font-semibold text-lg">Firm</span>
             </div>
           </a>
