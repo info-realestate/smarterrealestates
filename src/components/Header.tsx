@@ -40,11 +40,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           <a href="/" className="flex items-center gap-2">
             <div className="w-10 h-10 rounded-lg bg-gold-gradient flex items-center justify-center">
-              <span className="text-navy-dark font-display font-bold text-xl">S</span>
+              <span className="text-navy-dark font-display font-bold text-xl">F</span>
             </div>
             <div className="hidden sm:block">
-              <span className="text-cream font-display font-semibold text-lg">Smarter</span>
-              <span className="text-gold font-display font-semibold text-lg">RealEstates</span>
+              <span className="text-cream font-display font-semibold text-lg">The&nbsp;</span>
+              <span className="text-gold font-display font-semibold text-lg">Firm</span>
             </div>
           </a>
 
