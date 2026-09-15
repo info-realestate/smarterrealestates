@@ -22,7 +22,7 @@ const features = [
   {
     icon: Shield,
     title: "Proven Results",
-    description: "99% success rate with over 2,500 homes saved from foreclosure.",
+    description: "Over 2,500 homes saved from foreclosure nationwide.",
   },
 ];
 
@@ -43,7 +43,7 @@ const About = () => {
               <span className="text-gold"> Foreclosure Defense</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-              Smarter Real Estates is a premier law firm dedicated to helping homeowners 
+              The Firm is a premier law firm dedicated to helping homeowners 
               facing foreclosure. With offices nationwide and a team of experienced attorneys, 
               we've built our reputation on results.
             </p>
