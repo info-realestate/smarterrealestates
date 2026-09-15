@@ -31,16 +31,16 @@ const AIChat = () => {
     const q = question.toLowerCase();
     
     if (q.includes("stop foreclosure") || q.includes("facing foreclosure")) {
-      return "We can help stop foreclosure without filing for bankruptcy. Our legal team will review your case, file necessary motions, and negotiate with your lender. With a 99% success rate, we've helped thousands of homeowners keep their homes. Would you like a free consultation?";
+      return "We can help stop foreclosure without filing for bankruptcy. Our legal team will review your case, file necessary motions, and negotiate with your lender. We've helped thousands of homeowners keep their homes. Would you like a free consultation?";
     }
     if (q.includes("tro") || q.includes("restraining order")) {
       return "A TRO (Temporary Restraining Order) is a court order that immediately stops foreclosure proceedings. We can file a TRO on your behalf to halt an auction and give us time to build your defense case. This is often used in emergency situations.";
     }
     if (q.includes("loan modification") || q.includes("modify")) {
-      return "Yes! We specialize in loan modification with a 99% success rate. Even if you've been denied before, we can help. We'll negotiate with your lender to lower your payments, reduce interest rates, or extend your loan term. Many clients save hundreds per month.";
+      return "Yes! We specialize in loan modification. Even if you've been denied before, we can help. We'll negotiate with your lender to lower your payments, reduce interest rates, or extend your loan term. Many clients save hundreds per month.";
     }
     if (q.includes("success rate")) {
-      return "We have a 99% success rate in helping homeowners avoid foreclosure. We've saved over 2,500 homes and have been practicing foreclosure defense law for over 15 years. Our track record speaks for itself!";
+      return "We've saved over 2,500 homes nationwide and have been practicing foreclosure defense law for over 15 years. Every case is unique, so contact us for a free consultation and an honest assessment of your options!";
     }
     if (q.includes("cost") || q.includes("fee") || q.includes("price")) {
       return "We offer free initial consultations and work on a contingency basis for many cases - meaning you only pay if we succeed. Every case is different, so contact us to discuss your specific situation and options.";

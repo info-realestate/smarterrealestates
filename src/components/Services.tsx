@@ -47,7 +47,7 @@ const services = [
   {
     icon: FileText,
     title: "Loan Modification Assistance",
-    description: "With a 99% success rate, our attorneys are experts at negotiating with lenders to modify your mortgage terms. We work to reduce your interest rate, extend your loan term, or reduce principal balance to create a payment plan you can actually afford.",
+    description: "Our attorneys are experts at negotiating with lenders to modify your mortgage terms. We work to reduce your interest rate, extend your loan term, or reduce principal balance to create a payment plan you can actually afford.",
     details: [
       "Complete application preparation and submission",
       "Principal reduction negotiations",

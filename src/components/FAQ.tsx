@@ -12,8 +12,8 @@ const faqs = [
     answer: "In emergency situations, we can file a Temporary Restraining Order (TRO) within 24-48 hours to immediately halt foreclosure proceedings. For less urgent cases, we typically begin working on your case within 24 hours of your initial consultation and can often stop the process within days to weeks depending on your situation."
   },
   {
-    question: "What is your success rate for saving homes from foreclosure?",
-    answer: "We maintain a 99% success rate in helping homeowners avoid foreclosure. This includes obtaining loan modifications, stopping wrongful foreclosures, negotiating with lenders, and using legal strategies to protect your home. Our experienced attorneys have saved over 2,500 homes nationwide."
+    question: "What is your track record for saving homes from foreclosure?",
+    answer: "Our experienced attorneys have saved over 2,500 homes nationwide. This includes obtaining loan modifications, stopping wrongful foreclosures, negotiating with lenders, and using legal strategies to protect your home. Every case is unique, so during your free consultation we'll give you an honest assessment of the options available for your situation."
   },
   {
     question: "How much does it cost to hire your firm?",

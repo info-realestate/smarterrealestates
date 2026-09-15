@@ -58,8 +58,7 @@ const Hero = () => {
 
             <p className="text-cream/80 text-lg md:text-xl mb-8 max-w-xl">
               Our legal experts have helped thousands of homeowners protect their properties 
-              without filing for bankruptcy. With a <span className="text-gold font-semibold">99% success rate</span>, 
-              we're your trusted partner in foreclosure defense.
+              without filing for bankruptcy. <span className="text-gold font-semibold">We're your trusted partner in foreclosure defense.</span>
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
@@ -76,7 +75,7 @@ const Hero = () => {
               {[
                 "No Bankruptcy Required",
                 "Stop Auction Fast",
-                "99% Success Rate",
+                "Free Consultation",
                 "Nationwide Service",
               ].map((item, index) => (
                 <motion.div
@@ -118,8 +117,8 @@ const Hero = () => {
                     <span className="text-gold font-bold text-2xl">2,500+</span>
                   </div>
                   <div className="flex items-center justify-between p-4 rounded-lg bg-secondary">
-                    <span className="text-foreground font-medium">Success Rate</span>
-                    <span className="text-success font-bold text-2xl">99%</span>
+                    <span className="text-foreground font-medium">States Served</span>
+                    <span className="text-gold font-bold text-2xl">50</span>
                   </div>
                   <div className="flex items-center justify-between p-4 rounded-lg bg-secondary">
                     <span className="text-foreground font-medium">Years Experience</span>
