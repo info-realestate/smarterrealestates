@@ -50,7 +50,7 @@ const Locations = () => {
             Our Office Locations
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            With offices across the country, we're positioned to serve homeowners in all 50 states.
+            With offices across the country, we're positioned to help homeowners facing foreclosure.
           </p>
         </motion.div>
 
@@ -93,7 +93,7 @@ const Locations = () => {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <h3 className="font-display text-2xl md:text-3xl text-cream mb-4">
-                Serving All 50 States
+                Foreclosure Help Across the Country
               </h3>
               <p className="text-cream/80 mb-6">
                 No matter where you're located, our legal team is ready to help you save your home. 
@@ -118,7 +118,7 @@ const Locations = () => {
             </div>
             <div className="hidden md:flex justify-center">
               <div className="w-48 h-48 rounded-full bg-gold/10 flex items-center justify-center">
-                <span className="font-display text-6xl text-gold font-bold">50</span>
+                <span className="font-display text-6xl text-gold font-bold">6</span>
               </div>
             </div>
           </div>

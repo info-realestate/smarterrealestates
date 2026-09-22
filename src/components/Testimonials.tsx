@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: "Maria Rodriguez",
     location: "Miami, FL",
-    quote: "The Firm saved our family home when we thought all hope was lost. They stopped our auction just 3 days before the sale date. We can't thank them enough for giving us a second chance.",
+    quote: "SmarterKing Real Estates saved our family home when we thought all hope was lost. They stopped our auction just 3 days before the sale date. We can't thank them enough for giving us a second chance.",
     result: "Auction stopped, loan modified",
     stars: 5,
   },
@@ -19,7 +19,7 @@ const testimonials = [
   {
     name: "Robert Chen",
     location: "New York, NY",
-    quote: "The bank was trying to foreclose on my home due to their own accounting errors. The Firm proved the wrongful foreclosure and not only saved my home but got me $50,000 in damages.",
+    quote: "The bank was trying to foreclose on my home due to their own accounting errors. SmarterKing Real Estates proved the wrongful foreclosure and not only saved my home but got me $50,000 in damages.",
     result: "Wrongful foreclosure reversed",
     stars: 5,
   },
@@ -118,8 +118,8 @@ const Testimonials = () => {
             </div>
             <div className="w-px h-12 bg-border" />
             <div className="text-center">
-              <p className="font-display text-3xl text-gold font-bold">50</p>
-              <p className="text-sm text-muted-foreground">States Served</p>
+              <p className="font-display text-3xl text-gold font-bold">6</p>
+              <p className="text-sm text-muted-foreground">Office Locations</p>
             </div>
             <div className="w-px h-12 bg-border" />
             <div className="text-center">

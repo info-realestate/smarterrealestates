@@ -15,17 +15,17 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>The Firm | Stop Foreclosure Without Bankruptcy</title>
+        <title>SmarterKing Real Estates | Foreclosure Defense</title>
         <meta 
           name="description" 
-          content="Stop foreclosure and save your home without filing bankruptcy. Expert legal team. Free consultation. Nationwide service with offices in FL, NY, TX, DC & HI." 
+          content="Facing foreclosure? SmarterKing Real Estates fights aggressive banks and protects homeowners without requiring bankruptcy. Free consultation." 
         />
         <meta name="keywords" content="stop foreclosure, foreclosure defense, wrongful foreclosure, loan modification, TRO, save home from auction, foreclosure lawyer, mortgage help" />
         <link rel="canonical" href="https://smarterrealestates.com" />
         
         {/* Open Graph */}
-        <meta property="og:title" content="The Firm | Stop Foreclosure Without Bankruptcy" />
-        <meta property="og:description" content="Expert foreclosure defense. Save your home without bankruptcy. Free consultation available 24/7." />
+        <meta property="og:title" content="SmarterKing Real Estates | Foreclosure Defense" />
+        <meta property="og:description" content="Facing foreclosure? We fight aggressive banks and protect your home. Free consultation available 24/7." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://smarterrealestates.com" />
         
@@ -34,7 +34,7 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LegalService",
-            "name": "The Firm",
+            "name": "SmarterKing Real Estates",
             "description": "Foreclosure defense and mortgage modification legal services",
             "telephone": "855-964-2555",
             "email": "info@smarterrealestates.com",
