@@ -1,27 +1,16 @@
+# Rebrand and Foreclosure Headline Update
 
+## Changes
+- Replace the displayed brand name “The Firm” with “SmarterKing Real Estates” in the header, footer, About section, testimonials, page titles, social sharing details, and search metadata.
+- Update the logo initials to match the new brand while keeping the existing navy-and-gold design.
+- Replace the main headline with:
+  - “Facing Foreclosure?”
+  - “We Fight Aggressive Banks”
+  - “And Protect Your Home.”
+- Remove every numerical 50-state claim, including “50 States Served,” “Serving All 50 States,” and “licensed to practice in all 50 states.”
+- Replace removed statistics with factual, non-geographic information already shown on the site, while retaining the six listed office locations.
+- Keep the existing contact email, phone number, website address, and general nationwide-service positioning unchanged.
 
-## Add Google Ads Conversion Tracking on Form Submission
-
-The conversion snippet should fire when a user successfully submits the contact form, not on every page load. Placing it in the `<head>` would track every visitor as a conversion, which would be inaccurate.
-
-### What will change
-
-**File: `src/components/ContactForm.tsx`**
-- After a successful form submission (line 51, where `setIsSubmitted(true)` is called), add a call to `gtag('event', 'conversion', ...)` to fire the Google Ads conversion event.
-- This uses the existing `gtag` function already loaded globally via the Google tag in `index.html`.
-- A TypeScript declaration for the global `gtag` function will be added to avoid type errors.
-
-### Technical details
-
-The conversion call will be:
-```typescript
-// Fire Google Ads conversion event
-window.gtag?.('event', 'conversion', {
-  send_to: 'AW-17816164600/lZZUCLnb1f0bEPixtK9C',
-  value: 1.0,
-  currency: 'USD',
-});
-```
-
-This will be inserted right after `setIsSubmitted(true)` on line 51, so it only fires on successful form submissions -- exactly what you want for tracking real consultation requests as conversions in Google Ads.
-
+## Verification
+- Search the full site to confirm no “The Firm” branding or 50-state claims remain.
+- Check the updated header and opening section on desktop and mobile for readable text and clean spacing.
