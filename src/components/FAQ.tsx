@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     question: "Do you serve clients nationwide?",
-    answer: "Yes, we are licensed to practice in all 50 states and have offices in Florida, New York, Texas, Washington D.C., and Hawaii. No matter where you're located in the United States, we can help you fight foreclosure and save your home."
+    answer: "Yes. We help homeowners nationwide and have offices in Florida, New York, Texas, Washington D.C., and Hawaii. Contact us for a free consultation about your foreclosure situation."
   },
   {
     question: "What is a TRO and how does it help?",

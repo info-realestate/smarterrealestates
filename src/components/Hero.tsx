@@ -51,9 +51,11 @@ const Hero = () => {
             </div>
 
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-cream leading-tight mb-6">
-              Stop Foreclosure.
+              Facing Foreclosure?
               <br />
-              <span className="text-gradient-gold">Save Your Home.</span>
+              <span className="text-gradient-gold">We Fight Aggressive Banks</span>
+              <br />
+              And Protect Your Home.
             </h1>
 
             <p className="text-cream/80 text-lg md:text-xl mb-8 max-w-xl">
@@ -117,8 +119,8 @@ const Hero = () => {
                     <span className="text-gold font-bold text-2xl">2,500+</span>
                   </div>
                   <div className="flex items-center justify-between p-4 rounded-lg bg-secondary">
-                    <span className="text-foreground font-medium">States Served</span>
-                    <span className="text-gold font-bold text-2xl">50</span>
+                    <span className="text-foreground font-medium">Office Locations</span>
+                    <span className="text-gold font-bold text-2xl">6</span>
                   </div>
                   <div className="flex items-center justify-between p-4 rounded-lg bg-secondary">
                     <span className="text-foreground font-medium">Years Experience</span>

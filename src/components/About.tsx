@@ -43,7 +43,7 @@ const About = () => {
               <span className="text-gold"> Foreclosure Defense</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-              The Firm is a premier law firm dedicated to helping homeowners 
+              SmarterKing Real Estates is a premier law firm dedicated to helping homeowners 
               facing foreclosure. With offices nationwide and a team of experienced attorneys, 
               we've built our reputation on results.
             </p>
@@ -110,7 +110,7 @@ const About = () => {
                   "24/7 emergency support for urgent cases",
                   "Transparent communication throughout your case",
                   "Specialized exclusively in stopping foreclosure nationwide",
-                  "Licensed to practice in all 50 states",
+                  "Six office locations across the United States",
                 ].map((item, index) => (
                   <li key={index} className="flex items-center gap-3 text-cream/90">
                     <div className="w-6 h-6 rounded-full bg-gold flex items-center justify-center flex-shrink-0">
